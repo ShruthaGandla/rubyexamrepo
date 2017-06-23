@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: rubyexam_production
-  username: rubyexam
+  username: ubuntu
   password: <%= ENV['RUBYEXAM_DATABASE_PASSWORD'] %>
